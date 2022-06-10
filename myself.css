@@ -6,6 +6,7 @@ h1{
 }
 body
 {
+    margin: 0;
     font-family: 'Poppins', sans-serif;
 }
 .name-highlite
@@ -18,9 +19,20 @@ body
     float: left;
     margin-left: 5%;
     padding: 2%;
+    
 }
 
 .half-width img
 {
     width: 100%;
+}
+.top-banner
+{
+    
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+    
+}
+section{
+    height: 700px;
 }
