@@ -9,7 +9,7 @@ body
     margin: 0;
     font-family: 'Poppins', sans-serif;
 }
-.name-highlite
+.orange-highlite
 {
     color: orange;
 }
@@ -35,4 +35,112 @@ body
 }
 section{
     height: 700px;
+    padding-bottom: 200px;
+ 
+}
+
+.link-button
+{
+    text-decoration: none;
+   background-image: linear-gradient(salmon,tomato);
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+}
+
+.middle
+{
+    float: left;
+    width: 40%;
+    margin-left: 5%;
+    padding: 2%;
+   
+
+    
+}
+
+.middle img
+{
+    width: 100%;
+   
+
+  
+}
+
+.git-visit
+{
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-image: linear-gradient(salmon,tomato);
+    color: white;
+    font-weight: bold;
+
+}
+
+
+p
+{
+    color: dimgray;
+}
+
+.middle-class
+{
+    float: right;
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+  
+    background-position: right;
+   
+
+}
+
+.single-experience
+{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 20px;
+    height: 60%;
+    background-color: white;
+}
+
+.experiance-area
+{
+    background: url(images/exp-bg.png);
+   
+    background-repeat: no-repeat;
+    background-position: left;
+
+
+    float: left;
+}
+#full-stack
+{
+ border-left: 7px solid;
+ border-image: linear-gradient(180deg,lightsalmon,tomato);
+ border-image-slice: 1;
+}
+#baby-web
+{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,blue,cyan);
+    border-image-slice: 1;
+}
+
+footer p
+{
+    text-align: center;
+}
+.exp{
+text-align: center;
+
+margin: 20px;
+padding: 20px;
+color: black;
+
+
+}
+.exp:hover
+{
+    color: orange;
 }
